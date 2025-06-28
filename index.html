@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>أذكار الصباح والمساء</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Tahoma', sans-serif;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      background-color: #f2f2f2;
+    }
+    .container {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .option {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.8rem;
+      text-decoration: none;
+      color: #fff;
+      transition: background-color 0.3s ease;
+    }
+    .morning {
+      background-color: #f4b400;
+    }
+    .evening {
+      background-color: #0f4c75;
+    }
+    .icon {
+      font-size: 3.5rem;
+      margin-bottom: 0.7rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="index2.html" class="option morning">
+      <div class="icon">☀️</div>
+      <div>أذكار الصباح</div>
+    </a>
+    <a href="index3.html" class="option evening">
+      <div class="icon">🌙</div>
+      <div>أذكار المساء</div>
+    </a>
+  </div>
+</body>
+</html>

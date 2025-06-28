@@ -1,0 +1,44 @@
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Amiri', serif;
+      background: linear-gradient(to top, #fceabb, #e8d9f1); /* تدرج صباحي هادئ */
+      color: #333;
+      background-image: 
+        url('https://www.transparenttextures.com/patterns/arabesque.png'), /* زخرفة إسلامية شفافة */
+        radial-gradient(circle at 80% 20%, rgba(255, 255, 255, 0.2) 10%, transparent 40%);
+      background-repeat: repeat, no-repeat;
+      background-size: auto, 300px;
+      background-position: top left, top right;
+    }
+.sp {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    bottom: -110px;
+}
+.button .night {
+    position: relative;
+    bottom: -10px;
+}
+.button {
+    position: relative;
+    bottom: -180px;
+    text-align: center;
+}
+.button button {
+    background-color: antiquewhite;
+    height: 100px;
+    width: 270px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 0.7s ease;
+    border-width: 4px;
+}
+.button button:hover {
+    transform: scale(1.05);
+}
